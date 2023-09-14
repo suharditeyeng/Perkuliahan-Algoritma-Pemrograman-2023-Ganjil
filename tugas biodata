@@ -1,0 +1,25 @@
+Python 3.11.2 (tags/v3.11.2:878ead1, Feb 7 2023, 16:38:35) (MSC v.1934 64 bit (AMD64)] on win32 Type: "help", "copyright", "credits" or "license()" for more Information.
+
+>>> print ("biodata saya")
+biodata saya
+
+>>> print ("nama: suhardi")
+nama suhardi
+
+>>> print ("alamat: baraball")
+alamat: barabali
+
+>>> print ("status: lajang")
+status: lajang
+
+>>> print ("TL :Tanjung Balai Karimun, 24 januari 2005")
+TTL :Tanjung Balai Karimun, 24 januari 2005
+
+>>> print("hobi: mencari hal baru")
+hobi: mencari hal baru
+
+>>> print ("cita-cita : orang terkaya di dunia")
+cita-cita orang terkaya di dunia
+
+>>> print ("moto hidup: carilah pengalaman sebanyak banyak nya, sampai banyak orang mencarimu karna kamu berpengalaman")
+moto hidup: carilah pengalaman sebanyak banyak nya, sampai banyak orang mencari mu karna kamu berpengalaman

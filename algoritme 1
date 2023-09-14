@@ -1,0 +1,9 @@
+Azmi punya gelas ukuran 8 liter berisi air penuh. Dan gelas kosong ukuran 5 liter dan 3 liter.
+Kemudian Anggun ingin meminta air hanya 4 liter saja. Buatkan algoritme supaya anggun
+mendapatkan air seperti yang dia inginkan!!!!
+>>>print (“tuangkan air di gelas ukuran 8 liter ke gelas kosong ukuran 5 liter sebanyak 4 liter”)
+tuangkan air di gelas ukuran 8 liter ke gelas kosong ukuran 5 liter sebanyak 4 liter
+>>>print (“dan sekarang isi air di gelas 8 liter tadi tersisa tinggal 4 liter,karna 4 liter lagi sudah di tuangkan ke gelas kosong  yang berukuran 5 liter”)
+dan sekarang isi air di gelas 8 liter tadi tersisa tinggal 4 liter,karna 4 liter lagi sudah di tuangkan ke gelas kosong  yang berukuran 5 liter
+>>>print (“setelah itu,sisa air dari gelas yang berukuran 8 liter tersebut sudah bisa diberikan kepada angun,sesuai yang anggun inginkan.yaitu,4 liter air yang tidak lebih dan tidak kurang ”)
+setelah itu,sisa air dari gelas yang berukuran 8 liter tersebut sudah bisa diberikan kepada angun,sesuai yang anggun inginkan.yaitu,4 liter air yang tidak lebih dan tidak kurang

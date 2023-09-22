@@ -1,0 +1,31 @@
+SEBELUM:
+
+nama = input ("masukan NIM anda : ")
+print("nama : Suhardi")
+print("alamat : Barebali")
+print("TTL : Tanjung Balai Karimun,24 Januari 2005")
+print("Hobi : Mencari Hal Baru")
+print("Cita-cita : Orang Terkaya Di Dunia")
+anak = input ("Anak Ke Berapa : ")
+print("Hayy Anak Pertama Dari")
+print("Nama Ayah : Iyal")
+print("Nama Ibu : Ijan Sri Wijayani")
+print("Saudara Kadung :Laili Sri Suhartini")
+print("Apapun Hasilnya,Tetap Kan Pendirian Mu, Percayalah Bahwa Allah Tetap Bersama Mu")
+
+SESUDAH:
+
+masukan NIM anda : 5520123015
+nama : Suhardi
+alamat : Barebali
+TTL : Tanjung Balai Karimun,24 Januari 2005
+Hobi : Mencari Hal Baru
+Cita-cita : Orang Terkaya Di Dunia
+Anak Ke Berapa : pertama
+Hayy Anak Pertama Dari
+Nama Ayah : Iyal
+Nama Ibu : Ijan Sri Wijayani
+Saudara Kadung :Laili Sri Suhartini
+Apapun Hasilnya,Tetap Kan Pendirian Mu, Percayalah Bahwa Allah Tetap Bersama Mu
+
+[Process completed - press Enter]

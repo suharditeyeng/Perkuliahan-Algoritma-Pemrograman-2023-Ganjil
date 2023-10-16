@@ -1,0 +1,15 @@
+while True:
+    nilai = int(input('masukan nilai:'))
+    if nilai >=88 :
+        print('nilai:A')
+    elif nilai >= 75 < 88:
+        print('nilai:AB')    
+    elif nilai >= 70 <75:
+        print('nilai:B')
+    elif nilai <70 >=60:
+        print('belajar lagi deckkk')    
+    elif nilai <60 >=50:
+        print('mau tutor gak deckkkk??')
+        
+    else:
+        print('Mending Turu Deckkkk')  

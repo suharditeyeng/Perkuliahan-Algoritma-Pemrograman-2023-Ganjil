@@ -1,0 +1,60 @@
+#       SUHU
+indeks = {
+    "celcius\t": "c",
+    "fahrenheit": "f",
+}
+print("==========Indeks Satuan Skala Suhu=========")
+for i in indeks:
+    print("satuan suhu :", i,"\t Indeks :", indeks[i])
+
+suhu = float(input("masukkan suhu: "))
+satuan = input("masukkan indeks satuan skala suhu: ")
+
+if (satuan == "c"):
+    print(suhu, "derajat celcius")
+    print("Fahrenheit = ", (suhu*9/5)+32)
+    print("Kelvin     = ", suhu + 273)
+
+elif (satuan == "f"):
+    print(suhu, "derajat fahrenheit")
+    print("Celcius    = ",(5/9)*(suhu-32))
+    print("Kelvin     = ", (5/9)*(suhu-32)+273)
+
+print("==========Indeks Satuan Skala Suhu=========")
+
+for i in indeks:
+    print("satuan suhu :", i,"\t Indeks :", indeks[i])
+
+suhu = float(input("masukkan suhu: "))
+satuan = input("masukkan indeks satuan skala suhu: ")
+
+if(satuan == "f"):
+    print(suhu, "derajat fahrenheit")
+    print("Celcius    = ",(5/9)*(suhu-32))
+    print("Kelvin     = ", (5/9)*(suhu-32)+273)
+
+elif (satuan == "c"):
+    print(suhu, "derajat celcius")
+    print("Fahrenheit = ", (suhu*9/5)+32)
+    print("Kelvin     = ", suhu + 273)
+
+print("==================Waktu==================")
+
+jam = float(input('masukkan jumlah jam  : '))
+detik = jam * 60
+hari = float(input('masukkan jumlah hari : '))
+Jam = hari * 24
+tahun = float(input('masukkan jumlah tahun: '))
+Detik = tahun * 31536000
+
+print('jam ke detik  : ',detik)
+print('hari ke jam   : ',Jam)
+print('tahun ke detik: ',Detik)
+
+print("=================Cahaya=================")
+kecepatan = 3*108
+satu_tahun = 31536000
+hasil = kecepatan * satu_tahun
+print("kecepatan:",kecepatan)
+print("satu tahun:",satu_tahun,"detik")
+print("nilai satu tahun cahaya:",hasil,"per detik")

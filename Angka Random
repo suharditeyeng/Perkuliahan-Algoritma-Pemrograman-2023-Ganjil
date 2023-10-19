@@ -1,0 +1,12 @@
+import random
+
+soal = random.randint(0,1000)
+tebakan = int(input('masukkan tebakan anda:'))
+
+while tebakan != soal:
+    if tebakan > soal:
+       print('tebakan anda terlalu besar')
+    else:
+        print('tebakan anda terlalu kecil')
+    tebakan = int(input('masukkan tebakan anda:'))
+print('selamat tebakan anda benar')

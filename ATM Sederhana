@@ -1,0 +1,59 @@
+class ATM:
+    def __init__(self, saldo_awal):
+        self.saldo = saldo_awal
+
+    def cek_saldo(self):
+        return self.saldo
+
+    def tarik_uang(self, jumlah_tarik):
+        if jumlah_tarik > self.saldo:
+            return "Saldo tidak mencukupi", 0
+        else:
+            self.saldo -= jumlah_tarik
+            return f"Anda menarik {jumlah_tarik}. Sisa saldo: {self.saldo}", jumlah_tarik
+
+    def setor_uang(self, jumlah_setor):
+        self.saldo += jumlah_setor
+        return f"Anda menyetor {jumlah_setor}. Sisa saldo: {self.saldo}", jumlah_setor
+print(30*"=")
+PIN = input("MASUKAN PIN ANDA : ")
+print(30*"~")
+if PIN == "240105":
+    print("===============================")
+    print("|| SELAMAT DATANG DI ATM BRI ||")
+    print("===============================")
+    print("||        1. TARIK TUNAI     ||")
+    print("||        2. SETOR TUNAI     ||")
+    print("||        3. CEK SALDO       ||")
+    print("||        4. KELUAR          ||")
+    print("===============================")
+    print(30*"_")
+    menu = input("PILIH MENU YANG AKAN DILAKUKAN: ")
+    print(30*"_")
+    saldo = 1000000
+    atm = ATM(saldo)
+
+    if menu == "1":
+        print("ANDA MEMILIH MENU TARIK TUNAI ")
+        jumlah_penarikan = int(input("Masukkan jumlah penarikan: "))
+        result, amount = atm.tarik_uang(jumlah_penarikan)
+        print(result)
+
+    elif menu == "2":
+        print("ANDA MEMILIH MENU SETOR TUNAI ")
+        jumlah_setor = int(input("Masukkan jumlah setoran: "))
+        result, amount = atm.setor_uang(jumlah_setor)
+        print(result)
+
+    elif menu == "3":
+        print("ANDA MEMILIH MENU CEK SALDO:")
+        print("SALDO ANDA:", atm.cek_saldo())
+
+    elif menu == "4":
+        print("TERIMA KASIH ")
+
+    else:
+        print("Pilih nomor 1 sampai 4, cuy!")
+
+else:
+    print("MAAF PIN ANDA SALAH")
